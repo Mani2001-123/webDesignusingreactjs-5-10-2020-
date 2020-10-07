@@ -1,0 +1,13 @@
+maniteja 
+abhi 
+mani
+phani
+rohit
+
+
+
+
+99
+56
+
+main is a function
