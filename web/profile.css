@@ -79,7 +79,7 @@ hr{
 	flex-direction: column;
 }
 .data>div{
-	width: 30%;
+	width: 100%;
 	padding: 1%;
 	margin: 1%;
 	text-align: center;
