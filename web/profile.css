@@ -1,0 +1,147 @@
+.gm{
+	color: hsl(0,100%,50%);
+	border: 2px dashed red;
+	border-top: 2px dotted orange;
+	border-bottom: 2px solid red;
+	border-left: 2px dashed blue;
+	border-right: 2px solid skyblue;
+	box-shadow: 5px 0px 5px 0px;
+	padding: 2%;
+	margin: 5%;
+	display: flex;
+	justify-content: flex-start;	
+}
+.gm>div{
+	padding: 2%;
+	margin: 2%;
+	border:2px solid blue;
+	width: 20%;
+}
+.gm2{
+	margin: 5%;
+border:2px solid blue;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.gm2>div{
+border:2px solid green;
+padding: 1%;
+width: 20%;
+flex-direction: flex-end;
+}
+.data{
+	display: flex;
+	padding: 1%;
+	margin: 1%;
+	border: 2px solid red;
+}
+.data>div{
+	width: 30%;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	border:2px solid blue;
+}
+img{
+	border-radius: 100%	;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+a{
+	text-decoration: none;
+}
+h3{
+	color: teal;
+	
+
+}
+h2{
+	color: maroon;
+}
+
+button{
+	box-shadow: 2px 2px 2px 2px blue ;
+	width: 40%;
+
+}
+hr{
+	color: blue;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+.data{
+	display: flex;
+	padding: 1%;
+	margin: 1%;
+	border: 2px solid red;
+	flex-direction: column;
+}
+.data>div{
+	width: 30%;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	border:2px solid blue;
+	box-shadow: 10px 0px 10px 0px skyblue;
+}
+img{
+	border-radius: 50%	;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+button{
+	box-shadow: 2px 2px 2px 2px blue ;
+	width: 50%;
+
+}
+
+}
+
+
+@media only screen and (min-width:481px) and (max-width:768px){
+.data{
+	display: flex;
+	padding: 1%;
+	margin: 1%;
+	border: 2px solid red;
+	/*flex-direction: column;*/
+	width: 100%;
+}
+.data>div{
+	width: 30%;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	border:2px solid blue;
+	box-shadow: 10px 0px 10px 0px skyblue;
+}
+img{
+	border-radius: 50%	;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+button{
+	box-shadow: 2px 2px 2px 2px blue ;
+	width: 100%;
+
+}
+body{
+	background-color: ;
+}
+
+}
+
+
+
+
+
+
+
+
+
