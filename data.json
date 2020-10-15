@@ -3,6 +3,29 @@
 		"name":"mani",
 		"email":"kmaniteja2001@gmail.com",
 		"20":"twenty  ",
-		"phone":96521452563
-	}
+		"phone":96521452563,
+		"hobbies":["palying chess","palying cricket"]
+	},
+	"trainers":[
+		{
+			"name":"kmani",
+			"email":"mani@2001",
+			"phone":96521452563,
+			"hobbies":["palying chess","palying cricket"]
+		},
+		{
+			"name":"pmani",
+			"email":"mani@2001",
+			"phone":96521452563,
+			"hobbies":["palying chess","palying cricket"]
+
+		},
+		{
+			"name":"amani",
+			"email":"mani@2001",
+			"phone":96521452563,
+			"hobbies":["palying chess","palying cricket"]
+
+		}
+	]
 }
